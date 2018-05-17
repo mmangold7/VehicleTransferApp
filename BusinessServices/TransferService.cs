@@ -5,6 +5,7 @@ namespace BusinessServices
 {
     public class TransferService
 	{
+		//transfer vehicles from one location to another per business rules
 		public void Transfer(Vehicle vehicle, Location fromLocation, Location toLocation)
 		{
 			//only vehicles in stand-by may be transferred
@@ -18,6 +19,8 @@ namespace BusinessServices
 			fromLocation.Vehicles.Remove(vehicle);
 		}
     }
+
+    //exceptions are included here in this file for the code exercise as they are only used with this service
 
 	[Serializable]
 	public class SemiTransferToBranchException : Exception

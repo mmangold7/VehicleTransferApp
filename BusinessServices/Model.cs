@@ -7,5 +7,7 @@ namespace BusinessServices
 		public MakeEnum Make { get; set; }
 		public string Name { get; set; }
 	}
+
+    //example vehicle manufacturers
 	public enum MakeEnum { Ford, Crysler, Honda, Toyota }
 }

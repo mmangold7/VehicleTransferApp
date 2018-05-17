@@ -4,6 +4,6 @@ namespace BusinessServices
 {
 	public class Branch : Location
     {
-
+        
     }
 }
